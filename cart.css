@@ -1,0 +1,25 @@
+#container{
+    display: flex;
+    flex-flow: column;
+    /* border: 2px solid red; */
+
+}
+#dish{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    /* border: 2px solid 
+    red; */
+    grid-gap: 2%;
+}
+img{
+    width: 100%;
+}
+#count{
+    display: flex;
+    /* border: 2px solid red; */
+}
+.order:hover{
+    background-color: red;
+    font-size: 25px;
+    
+}
